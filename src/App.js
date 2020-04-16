@@ -8,8 +8,8 @@ import Skills from './components/Skills'
 import { Circular } from 'styled-loaders-react'
 import Fade from 'react-reveal/Fade'
 
-const App = (loading) => (
-  <>
+function App(loading) {
+  return (<>
     {!loading ? <Circular color="red" size="60px" duration="5s" />
       :
 
@@ -39,10 +39,12 @@ const App = (loading) => (
         </main>
         <footer>
           © {new Date().getFullYear()}, Natalia Gabuaeva
-    </footer>
+  </footer>
       </div>
     }
-  </>
-)
+  </>)
+}
+
+
 
 export default App;
