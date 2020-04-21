@@ -13,4 +13,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 100px;
+
+@media (max-width: 768px) {
+  max-width: 100%;
+  padding: 25px;
+}
 `
