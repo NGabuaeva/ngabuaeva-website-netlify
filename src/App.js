@@ -38,7 +38,7 @@ function App() {
           </Fade>
         </main>
         <footer>
-          © {new Date().getFullYear()}, Natalia Gabuaeva
+          © {new Date().getFullYear()} Natalia Gabuaeva
   </footer>
       </div>
     }

@@ -21,7 +21,6 @@ max-width: 70%;
 export const AboutText = styled.div`
 width: 55%;
 font-family: 'Lato', sans-serif;
-font-style: oblique;
 font-weight: bold;
 opacity: 85%;
 color: #051854;

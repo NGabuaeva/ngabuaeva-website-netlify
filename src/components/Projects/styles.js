@@ -40,7 +40,6 @@ margin-bottom: 50px;
 export const ProjectText = styled.div`
 width: 65%;
 font-family: 'Lato', sans-serif;
-font-style: oblique;
 font-weight: bold;
 opacity: 85%;
 color: #051854;
