@@ -8,9 +8,9 @@ import Skills from './components/Skills'
 import { Circular } from 'styled-loaders-react'
 import Fade from 'react-reveal/Fade'
 
-function App(loading) {
+function App() {
   return (<>
-    {!loading ? <Circular color="red" size="60px" duration="5s" />
+    {!document.getElementsByTagName('body')[0] ? <Circular color="red" size="60px" duration="5s" />
       :
 
       <div

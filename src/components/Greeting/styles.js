@@ -7,7 +7,7 @@ align-items: center;
 margin: 40px;
 
 @media (max-width: 414px) {
-  padding-top: 80px;
+  padding-top: 10px;
   padding-bottom: 80px
 }
 `
