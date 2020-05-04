@@ -1,6 +1,7 @@
 import React from 'react'
 import LivingARt from '../../images/LivingARt.mp4'
 import NYSE from '../../images/NYSE.png'
+import PizzaNow from '../../images/Pizza Now.mp4'
 import { ProjectWrapper, ProjectText, ProjectImage, ProjectVideo, ProjectsWrapper, ProjectTitle } from './styles'
 import { SectionTitle, SectionWrapper } from '../SharedStyles/SharedStyles'
 
@@ -8,6 +9,17 @@ export default () => (
   <SectionWrapper id='projects'>
     <SectionTitle>Projects</SectionTitle>
     <ProjectsWrapper >
+      <ProjectTitle href="https://pizza-now.herokuapp.com/">Pizza NOW</ProjectTitle>
+      <ProjectWrapper>
+        <ProjectText>
+          With the recent drastic increase in domestic violence disputes, we wanted to create an app for victims to ask for help in a discreet way.
+          We heard about victims using keywords similar to ordering a pizza when making 911 calls to disguise the purpose of the call from anyone else in the room. Inspired by that, we wanted to give victims another option and decided to build Pizza NOW, a pizza ordering service that triggers 'help' alerts to a victim's emergency contacts.
+        </ProjectText>
+        <ProjectVideo src={PizzaNow} autoplay controls></ProjectVideo>
+      </ProjectWrapper>
+
+
+
       <ProjectTitle href="https://living-art-capstone.herokuapp.com/">LivingARt</ProjectTitle>
       <ProjectWrapper>
         <ProjectText>
